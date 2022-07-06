@@ -301,3 +301,82 @@ body {
 .section4 h4 {
     color: #6c757d;
 }
+
+
+/* -----------------------SECTION5---------------------------- */
+
+
+.section5{
+    padding-top: 50px;
+}
+
+.sec5_image1 {
+    width: 300px;
+    position: absolute;
+}
+
+.sec5_image2 {
+    width: 300px;
+    position: relative;
+    top: 0px;
+    left: -10%;
+    transition-duration: 1s;
+}
+
+.sec5_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sec5_left {
+
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec5_right_images {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec5_right_images:hover .sec5_image2 {
+    transform: translate(-100px, 0px);
+}
+
+.sec5_fact{
+
+    font-size: 15px;
+}
+
+.sec5_why1{
+    font-size: 40px;
+}
+
+
+.sec5_button{
+
+    border-radius: 150px;
+    color: #212529;
+    background: #f9a806;
+    border: 2px solid #f9a806 !important;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition-duration: 1s;
+}
+
+.sec5_button:hover {
+
+    background: #212529;
+    color: #f9a806;
+
+}
