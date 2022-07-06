@@ -81,19 +81,19 @@
 
 
     /* -----------------------SECTION3--------------------------  */
-    
-    
+
+
     .section3 .p {
         padding: 0px 0px !important;
         font-size: 20px !important;
 
     }
 
-    .sec3_div1{
-      flex-direction: column;  
-    } 
+    .sec3_div1 {
+        flex-direction: column;
+    }
 
-    .sec3_div2{
+    .sec3_div2 {
         flex-direction: column;
     }
 
@@ -105,15 +105,62 @@
         display: grid;
         grid-template-columns: 1fr !important;
     }
+
     .sec4_grid .sec4_box {
         width: 250px !important;
         height: auto;
-     }
-     .section4 p{
-        font-size: 20px;
-     }
-}
+    }
 
+    .section4 p {
+        font-size: 20px;
+    }
+
+
+
+    /* --------------------------SECTION5---------------------------- */
+
+
+    .sec5_main {
+        display: flex;
+        flex-direction: column !important;
+
+    }
+
+
+    .sec5_left
+
+    {
+        width: 100% !important;
+        margin-bottom: 10px;
+        justify-content: end;
+    }
+    
+    .sec5_left-sub{
+        width: 80%;
+    }
+
+    .sec5_image1 {
+        width: 150px !important;
+
+    }
+    
+    .sec5_image2 {
+        width: 150px !important;
+        left: 0px !important;
+       
+    }
+
+    .sec5_right_images{
+        width: 100% !important;
+
+    }
+
+    .sec5_right_images:hover .sec5_image2 {
+        transform: translate(-50px, 0px) !important;
+    }
+    
+
+    
 
 @media (min-width:425px) and (max-width:768px) {
 
@@ -169,30 +216,45 @@
     /* --------------------SECTION4---------------------- */
 
 
-    
+
     .sec4_grid .sec4_box {
         width: 190px !important;
         height: auto;
-     }
-     .section4 p{
+    }
+
+    .section4 p {
         font-size: 20px;
-     }
+    }
+
+
+
+
+
+
+    /* --------------------------SECTION5---------------------------- */
+
+
+    .sec5_main {
+        display: flex;
+        flex-direction: column !important;
+
+    }
+
 }
 
 
 
-@media (min-width:769px) and (max-width:1024px)
-
-{
+@media (min-width:769px) and (max-width:1024px) {
 
     /* ---------------------------SECTION4------------------ */
     .sec4_grid .sec4_box {
         width: 220px !important;
         height: auto;
-     }
-     .section4 p{
+    }
+
+    .section4 p {
         font-size: 20px;
-     }
+    }
 
 
 }
