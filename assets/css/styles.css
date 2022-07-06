@@ -1,0 +1,303 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+
+/* ---------------------NAVBAR----------------------- */
+.nav-logo {
+    width: 150px;
+    height: auto;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+
+}
+
+.left {
+    width: 30%;
+}
+
+.right {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+
+}
+
+.nav_ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav_item {
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.nav_link {
+    text-decoration: none;
+    color: rgb(201, 201, 201);
+    padding: 9px;
+    text-align: center;
+    display: inline-block;
+}
+
+.extra_contact {
+    background-color: gray;
+    border-radius: 30px;
+}
+
+.nav_link:hover {
+    color: white;
+    transition-duration: 0.7s;
+}
+
+
+
+/* _______________________________BODY_______________________________________ */
+
+.complete_body {
+
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+
+
+/* ---------------------------SECTION1--------------------------- */
+
+
+.sec1_main_div {
+
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sec1_sub_div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+    flex-direction: column;
+    max-width: 577px;
+    text-align: center;
+}
+
+
+.sec1_logo {
+
+
+    width: 400px;
+    height: auto;
+}
+
+.sec1_p {
+    font-size: 25px;
+}
+
+
+
+/* ---------------------------SECTION2--------------------------- */
+
+
+.section2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+
+.sec2_main {
+
+    margin-top: 40px;
+
+}
+
+
+.sec2_left {
+
+
+    position: absolute;
+    left: 37%;
+    bottom: 24px;
+    width: 300px;
+
+    transition-duration: 1s;
+    margin-bottom: 10px;
+}
+
+
+
+.sec2_right {
+
+    position: absolute;
+    bottom: 24px;
+    right: 37%;
+    width: 300px;
+    transition-duration: 1s;
+    margin-bottom: 10px;
+
+}
+
+.sec2_middle {
+    width: 360px;
+    position: relative;
+    z-index: 2;
+}
+
+.sec2_main:hover .sec2_left {
+
+    transform: translate(-200px, 0px);
+
+
+}
+
+.sec2_main:hover .sec2_right {
+
+    transform: translate(200px, 0px);
+
+}
+
+
+
+/* --------------------------------------------SECTION3----------------------------------  */
+
+
+.section3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 4rem;
+}
+
+.section3 .h1 {
+    font-size: 3rem;
+}
+
+.section3 .p {
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.sec3_div1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    margin-top: 3rem;
+    height: auto;
+
+}
+
+.sec3_div2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    margin-top: 3rem;
+    height: auto;
+
+}
+
+.div_para p {
+    padding: 10px 20px;
+    color: #6c757d;
+}
+
+
+.sec3_main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+
+/* --------------------------SECTION4------------------------------------- */
+
+.section4 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 5rem;
+}
+
+.sec4_grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sec4_grid .sec4_box {
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    margin-top: 5rem;
+    padding: 0px 30px;
+}
+
+.sec4_grid .sec4_box img {
+    width: 20%;
+    height: auto;
+}
+
+.sec4_grid .sec4_box p {
+    font-size: 17px;
+    color: #6c757d;
+}
+
+.section4 p {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 1rem;
+}
+
+.section4 h1 {
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.section4 h4 {
+    color: #6c757d;
+}
