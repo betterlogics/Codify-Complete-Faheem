@@ -227,6 +227,19 @@
         width: 90% !important;
        
     }
+
+
+
+
+    
+    /* ------------------------------SECTION8--------------------------- */
+
+
+    .sec8_div{
+        flex-direction: column !important;
+        margin-top: 0px !important;
+    }
+
 }
 
 @media (min-width:425px) and (max-width:768px) {
@@ -382,6 +395,9 @@
         width: 50% !important;
        
     }
+
+
+
 
 
 }

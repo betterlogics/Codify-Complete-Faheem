@@ -513,3 +513,69 @@ body {
     z-index: -4;
 }
 
+
+
+
+/* --------------------SECTION8--------------------- */
+
+
+
+.section8{
+
+    margin-top: 90px;
+}
+
+.sec8_h {
+
+    text-align: center;
+
+    padding-bottom: 30px;
+}
+
+
+
+.sec8_border_image{
+    position: absolute;
+    animation: rotation 15s infinite linear;
+}
+.sec8_team_member{
+    border-radius: 50%;
+    position: relative;
+    width: 175px;
+    top: 15px;
+    left: 18px;
+}
+
+.sec8_div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.sec8_sub{
+    width: 214px;
+    display: inline-block;
+}
+
+
+.sec8_image{
+    padding-bottom: 20px;
+}
+
+
+.sec8_center_text{
+
+    text-align: center;
+}
+
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
