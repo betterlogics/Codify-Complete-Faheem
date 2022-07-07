@@ -268,7 +268,8 @@
         align-items: center;
     }
 
-    .sec9_form_sub,.another {
+    .sec9_form_sub,
+    .another {
         width: 230px !important;
 
     }
