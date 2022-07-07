@@ -137,6 +137,7 @@
     
     .sec5_left-sub{
         width: 80%;
+        text-align: center;
     }
 
     .sec5_image1 {
@@ -150,6 +151,8 @@
        
     }
 
+    
+
     .sec5_right_images{
         width: 100% !important;
 
@@ -160,7 +163,71 @@
     }
     
 
+
+    /* ---------------------------SECTION6------------------------ */
+
+    .sec6_grid {
+        display: grid;
+        grid-template-columns: 1fr !important;
+    }
+
+    .sec6_grid .sec6_box {
+        width: 250px !important;
+        height: auto;
+    }
+
+    .section6 p {
+        font-size: 20px;
+    }
+
+
+
+
+
+    /* ------------------------------SECTION7------------------------------- */
+
+
+
+
+
+    .sec7_main{
+        flex-direction: column;
+        align-items: center;
+    }
     
+
+
+    .sec7_left_text{
+       width: 100% !important;
+       text-align: center !important;
+
+    }
+    
+    
+    .test_right{
+    
+        width: 100% !important;
+    }
+    .test_left{
+    
+        width: 100% !important;
+    }
+    
+    
+    .sec7_right_text{
+    
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+
+
+    .sec7_middle_image{
+        
+        width: 90% !important;
+       
+    }
+}
 
 @media (min-width:425px) and (max-width:768px) {
 
@@ -240,11 +307,94 @@
 
     }
 
+
+    .sec5_left-sub{
+        text-align: center;
+    }
+
+
+    .sec5_image2 {
+        left: 0px !important;
+       
+    }
+
+    
+
+    .sec5_right_images{
+        margin-top: 20px;
+
+    }
+
+
+
+     /* --------------------SECTION6---------------------- */
+
+
+
+     .sec6_grid .sec6_box {
+        width: 190px !important;
+        height: auto;
+    }
+
+    .section6 p {
+        font-size: 20px;
+    }
+
+
+
+/* ------------------------------SECTION7------------------------------- */
+
+
+    .sec7_main{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+
+    .sec7_left_text{
+       width: 100% !important;
+       text-align: center !important;
+
+    }
+    
+    
+    .test_right{
+    
+        width: 100% !important;
+    }
+    .test_left{
+    
+        width: 100% !important;
+    }
+    
+    
+    .sec7_right_text{
+    
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+
+
+    .sec7_middle_image{
+        
+        width: 50% !important;
+       
+    }
+
+
 }
 
 
 
 @media (min-width:769px) and (max-width:1024px) {
+
+
+    .sec5_left-sub{
+        padding-left: 70px;
+    }
+
 
     /* ---------------------------SECTION4------------------ */
     .sec4_grid .sec4_box {
@@ -255,6 +405,25 @@
     .section4 p {
         font-size: 20px;
     }
+
+
+
+
+
+    /* ---------------------------SECTION6------------------ */
+    .sec6_grid .sec6_box {
+        width: 220px !important;
+        height: auto;
+    }
+
+    .section6 p {
+        font-size: 20px;
+    }
+
+
+
+   
+
 
 
 }
