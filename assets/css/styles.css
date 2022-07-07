@@ -579,3 +579,89 @@ body {
       transform: rotate(359deg);
     }
   }
+
+
+
+
+
+
+
+
+
+
+  /* ---------------------------SECTION9--------------------------------- */
+
+  .sec9_main{
+
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 55px;
+    flex-direction: column;
+
+    margin-top: 40px;
+
+  }
+
+  .sec9_left{
+
+    width: 80%;
+  }
+
+  .sec9_contact{
+    font-size: 14px;
+  }
+
+  .sec9_heading{
+
+    font-size: 34px;
+
+  }
+
+  .sec9_form_sub{
+    width: 270px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+
+    background-color: #e6e6e6;
+    
+  }
+
+  .another{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: #e6e6e6;
+  }
+
+  .sec9_form_btn{
+
+    border-radius: 150px;
+    color: #212529;
+    background: #f9a806;
+    border: 2px solid #f9a806 !important;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    padding: 6px 14px;
+    transition-duration: 1s;
+}
+
+.sec9_form_btn:hover {
+
+    background: #212529;
+    color: #f9a806;
+
+}
+
+.sec9_para a{
+
+    color: #f9a806;
+
+
+}
+  ::placeholder {
+    color: black;
+    opacity: 1; 
+  }

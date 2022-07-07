@@ -239,14 +239,56 @@
     /* ------------------------------SECTION8--------------------------- */
 
 
+
+
     .sec8_div {
         flex-direction: column !important;
         margin-top: 0px !important;
     }
 
+
+    /* --------------------------------SECTION9----------------------------- */
+
+
+    .sec9_main{
+
+        padding: 0px 30px !important;
+        justify-content: center !important;
+
+    
+      }
+
+    .sec_left
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sec9_form{
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+    }
+    .sec9_form_sub{
+        width: 100px !important;
+        
+      }
+    .another{
+        width: 100px !important;
+        
+      }
+
+      .sec9_para{
+        text-align: center;
+      }
+
+
 }
 
-@media (min-width:425px) and (max-width:768px) {
+@media (min-width:426px) and (max-width:768px) {
 
 
     /* -----------------------NAVBAR--------------------------- */
