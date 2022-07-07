@@ -127,15 +127,13 @@
     }
 
 
-    .sec5_left
-
-    {
+    .sec5_left {
         width: 100% !important;
         margin-bottom: 10px;
         justify-content: end;
     }
-    
-    .sec5_left-sub{
+
+    .sec5_left-sub {
         width: 80%;
         text-align: center;
     }
@@ -144,16 +142,16 @@
         width: 150px !important;
 
     }
-    
+
     .sec5_image2 {
         width: 150px !important;
         left: 0px !important;
-       
+
     }
 
-    
 
-    .sec5_right_images{
+
+    .sec5_right_images {
         width: 100% !important;
 
     }
@@ -161,7 +159,7 @@
     .sec5_right_images:hover .sec5_image2 {
         transform: translate(-50px, 0px) !important;
     }
-    
+
 
 
     /* ---------------------------SECTION6------------------------ */
@@ -190,52 +188,58 @@
 
 
 
-    .sec7_main{
+    .sec7_main {
         flex-direction: column;
         align-items: center;
     }
-    
-
-
-    .sec7_left_text{
-       width: 100% !important;
-       text-align: center !important;
-
-    }
-    
-    
-    .test_right{
-    
-        width: 100% !important;
-    }
-    .test_left{
-    
-        width: 100% !important;
-    }
-    
-    
-    .sec7_right_text{
-    
-        width: 100% !important;
-        text-align: center !important;
-    }
 
 
 
-    .sec7_middle_image{
-        
+    .sec7_left_text {
         width: 90% !important;
-       
+        text-align: center !important;
+        display: flex !important;
+        justify-content: flex-end !important;
+
+    }
+
+
+    .test_right {
+
+        width: 70% !important;
+    }
+
+    .test_left {
+
+        width: 70% !important;
+    }
+
+
+    .sec7_right_text {
+
+        width: 90% !important;
+        text-align: center !important;
+
+        display: flex !important;
+        justify-content: flex-start !important;
+    }
+
+
+
+    .sec7_middle_image {
+
+        width: 90% !important;
+
     }
 
 
 
 
-    
+
     /* ------------------------------SECTION8--------------------------- */
 
 
-    .sec8_div{
+    .sec8_div {
         flex-direction: column !important;
         margin-top: 0px !important;
     }
@@ -321,30 +325,30 @@
     }
 
 
-    .sec5_left-sub{
+    .sec5_left-sub {
         text-align: center;
     }
 
 
     .sec5_image2 {
         left: 0px !important;
-       
+
     }
 
-    
 
-    .sec5_right_images{
+
+    .sec5_right_images {
         margin-top: 20px;
 
     }
 
 
 
-     /* --------------------SECTION6---------------------- */
+    /* --------------------SECTION6---------------------- */
 
 
 
-     .sec6_grid .sec6_box {
+    .sec6_grid .sec6_box {
         width: 190px !important;
         height: auto;
     }
@@ -355,45 +359,46 @@
 
 
 
-/* ------------------------------SECTION7------------------------------- */
+    /* ------------------------------SECTION7------------------------------- */
 
 
-    .sec7_main{
+    .sec7_main {
         flex-direction: column;
         align-items: center;
     }
-    
 
 
-    .sec7_left_text{
-       width: 100% !important;
-       text-align: center !important;
+
+    .sec7_left_text {
+        width: 100% !important;
+        text-align: center !important;
 
     }
-    
-    
-    .test_right{
-    
+
+
+    .test_right {
+
         width: 100% !important;
     }
-    .test_left{
-    
+
+    .test_left {
+
         width: 100% !important;
     }
-    
-    
-    .sec7_right_text{
-    
+
+
+    .sec7_right_text {
+
         width: 100% !important;
         text-align: center !important;
     }
 
 
 
-    .sec7_middle_image{
-        
+    .sec7_middle_image {
+
         width: 50% !important;
-       
+
     }
 
 
@@ -407,7 +412,7 @@
 @media (min-width:769px) and (max-width:1024px) {
 
 
-    .sec5_left-sub{
+    .sec5_left-sub {
         padding-left: 70px;
     }
 
@@ -438,7 +443,7 @@
 
 
 
-   
+
 
 
 
