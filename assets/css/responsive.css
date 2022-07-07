@@ -250,40 +250,33 @@
     /* --------------------------------SECTION9----------------------------- */
 
 
-    .sec9_main{
+    .sec9_main {
 
         padding: 0px 30px !important;
         justify-content: center !important;
 
-    
-      }
 
-    .sec_left
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 
-    .sec9_form{
+
+
+    .sec9_form {
         display: flex;
         flex-direction: column;
 
         justify-content: center;
         align-items: center;
     }
-    .sec9_form_sub{
-        width: 100px !important;
-        
-      }
-    .another{
-        width: 100px !important;
-        
-      }
 
-      .sec9_para{
+    .sec9_form_sub,.another {
+        width: 150px !important;
+
+    }
+
+
+    .sec9_para {
         text-align: center;
-      }
+    }
 
 
 }
