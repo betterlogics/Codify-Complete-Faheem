@@ -337,7 +337,8 @@
 
     .sec10_right{
       
-        text-align: center;
+        text-align: center !important;
+        width: 100% !important;
     }
 }
 

@@ -796,7 +796,11 @@ body {
 .sec10_left a{
     color: #f9a806;
 }
+.sec10_right{
+    width: 40%;
+}
 .sec10_right h1{
     font-size: 15px;
-    margin-top: 50px;
+    margin-top: 10px;
+    text-align: center;
 }
